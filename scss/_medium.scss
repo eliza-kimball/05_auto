@@ -1,0 +1,41 @@
+/* NAVIGATION STUFF GOES HERE  */
+header {
+    #phoneNumber {
+        font-size: 1.2rem;
+    }
+}
+
+#theButton {
+    display: none;
+}
+
+#theNav {
+    grid-template-rows: 1fr;
+    padding: 10px 0;
+}
+
+#theNav ul, #theNav ul.open {
+    display: flex;
+    li a {
+        padding: .4rem 1rem;
+        border: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.parentHero p {
+    font-size: 3rem;
+}
+
+div.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    justify-content: space-between;
+    section {
+        flex-basis: calc(50% - ($gutter / 2));
+    }
+}

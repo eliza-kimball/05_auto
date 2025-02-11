@@ -1,0 +1,27 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+div.allCards {
+    section {
+        flex: 1 1 calc(25% - $gutter);
+        max-width: calc(25% - $gutter);
+        #batteryIcon {
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+    }
+    section a {
+        margin: 0;
+    }
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem $gutter;
+}
